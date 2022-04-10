@@ -26,7 +26,7 @@ def buscar_contato(nome):
 def detalhes_contato():
     telefone = input('Digite o telefone: ')
     email = input('Digite o email: ')
-    endereco = input('Digite o endereço: ')
+    endereco = input('Digite o endereço : ')
     idade = input('Digite a idade: ')
 
     return telefone, email, endereco, idade
