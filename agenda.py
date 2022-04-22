@@ -19,7 +19,7 @@ def buscar_contato(nome):
         print("Years:", pessoa['idade'])
         print("--------------------------------")
     except KeyError:
-        print(">>> Nao foi localizado nenhum contato com o valor informado.")
+        print(">>> Nao foi localizado nenhum contato com o valor informado!!")
     except:
         print(">>> Um erro ocorreu.")
 
